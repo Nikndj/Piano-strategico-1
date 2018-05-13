@@ -2,6 +2,8 @@
 //parte la sessione
 session_start();
 
+$_SESSION['message'] = '';
+$mysqli = new mysqli("localhost", "root", "", "ps_db");
 ?>
 <html>
 <head>
